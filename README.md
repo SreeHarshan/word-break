@@ -3,24 +3,24 @@ This is a problem statement I took from geeksforgeeks for my college
 I solved this using recursion and memory function
 <br /> <br />
 
-OUTPUT (recursion) <br />
+<b>OUTPUT (recursion)</b> <br />
 swimandgowaterlikeicecreamimangoplaypark <br />
 Word can be broken  <br />
 Execution time is 0.000839  <br />
 
-OUTPUT (memory function)  <br />
+<b>OUTPUT (memory function)</b>  <br />
 swimandgowaterlikeicecreamimangoplaypark <br />
 Word can be broken  <br />
 Execution time is 0.001602<br />
 <br />
 
-OUTPUT 2(recursion) <br />
+<b>OUTPUT 2(recursion) </b><br />
 swimandgowaterlikeicecreamimangoplayparksdkf <br />
 Word can be broken  <br />
 Execution time is 0.004317  <br />
 
 
-OUTPUT 2(memory function)  <br />
+<b>OUTPUT 2(memory function)</b>  <br />
 swimandgowaterlikeicecreamimangoplayparksdkf <br />
 Word can be broken  <br />
 Execution time is 0.002004<br />
