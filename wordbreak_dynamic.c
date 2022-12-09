@@ -3,8 +3,12 @@
 #include <stdlib.h>
 #include<time.h>
 
-char words[][20] = {"mobile","samsung","sam","sung","man","mango","icecream","and","go","i","like","ice","cream"};
+//char words[30][30];
+char words[][20] = {"mobile","samsung","mango","icecream","and","go","i","like","swim","play","park","water","hello","hi"};
+
+
 int *memory;
+int size = 10000;
 
 int check(char word[]){
 //    printf("Checking %s\n",word);
@@ -18,7 +22,7 @@ int check(char word[]){
 
 char* slice(char s[],int start,int stop){
     char *s2;
-    s2 = malloc(50*sizeof(char));
+    s2 = malloc(size*sizeof(char));
     int k=0;
     for(int i=start;i<stop;i++)
         s2[k++] = s[i];
@@ -55,8 +59,16 @@ int wordbreak(char word[]){
 
 int main()
 {
-    char s[50];
-    scanf("%s",s);
+
+
+    char s[size];
+
+    FILE *f = fopen("words.txt","r");
+    fscanf(f,"%s",s);
+    fclose(f);
+    printf("%s\n",s);
+
+
     memory = (int *) calloc(strlen(s),sizeof(int));
     clock_t start = clock();
     if(wordbreak(s))

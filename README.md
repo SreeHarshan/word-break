@@ -4,14 +4,14 @@ I solved this using recursion and memory function
 <br /> <br />
 
 OUTPUT (recursion) <br />
-ilikeicecream <br />
+swimandgowaterlikeicecreamimangoplaypark <br />
 Word can be broken  <br />
-Execution time is 0.000070  <br />
+Execution time is 0.000839  <br />
 
 OUTPUT (memory function)  <br />
-ilikeicecream <br />
+swimandgowaterlikeicecreamimangoplaypark <br />
 Word can be broken  <br />
-Execution time is 0.000044  <br />
+Execution time is 0.001602<br />
 <br />
 So as we can see the execution time is reduced in memory function
 
